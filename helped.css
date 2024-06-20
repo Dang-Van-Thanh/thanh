@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://discuss.codingblocks.com/uploads/default/original/2X/8/891ee9a180d14aa4cb2f71100d7b3a987215d384.jpg);
+    background-size: cover; /* Căn chỉnh kích thước ảnh để phù hợp với toàn bộ phần nội dung */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    background-attachment: fixed; /* Giữ ảnh nền cố định khi cuộn trang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.back{
+    margin-left: 357px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Anton, sans-serif;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

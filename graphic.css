@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqVe0qmu-3dtzu1FI3ABGhkbwObIa5AQhQ&s');
+    background-size: cover; /* Căn chỉnh kích thước ảnh để phù hợp với toàn bộ phần nội dung */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    background-attachment: fixed; /* Giữ ảnh nền cố định khi cuộn trang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#gameCanvas {
+    background-color: #000;
+    border: 1px solid ;
+}
+
+#score, #high-score {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#start-button, #reset-button, #back-button {
+    display: block;
+    margin: 10px auto;
+    font-family: Anton, sans-serif;
+}
+#player-name-display{
+    margin-bottom: 10px;
+    font-family: Anton, sans-serif;
+    font-size: 30px;
+}

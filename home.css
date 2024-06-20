@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://www.coolmathgames.com/sites/default/files/styles/mobile_game_image/public/Snake_OG-logo.jpg?itok=iR44Vsed); /* Đường dẫn đến file ảnh nền */
+    background-size: cover; /* Căn chỉnh kích thước ảnh để phù hợp với toàn bộ phần nội dung */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    background-attachment: fixed; /* Giữ ảnh nền cố định khi cuộn trang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    padding: 30px 60px;;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: green
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Anton, sans-serif;
+    font-size: 30px;
+}
+
+#play-button, #setting-button, #help-button, #login-button {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+button:hover, a:hover {
+    background-color: darkgreen; /* Màu nền khi di chuột vào */
+}
