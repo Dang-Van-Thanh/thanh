@@ -161,7 +161,7 @@ function resetHighScore() {
 
 // Điều hướng quay lại trang chủ khi click vào nút back
 backButton.addEventListener('click', () => {
-    window.location.href = 'main.html'; // Thay 'your_page.html' bằng URL của trang bạn muốn chuyển đến
+    window.location.href = 'index.html'; // Thay 'your_page.html' bằng URL của trang bạn muốn chuyển đến
 });
 
 // Hàm thay đổi màu sắc rắn
